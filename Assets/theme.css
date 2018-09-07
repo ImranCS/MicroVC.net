@@ -5,6 +5,9 @@ body { background-color: #92e299; }
 #header, #footer { background-color: #e8ace4; padding: 10px 0 10px 0; line-height: 32px; }
 #header a, #footer a { color: #003DB8; font-weight: bold; }
 
+#ads { margin-top: 30px; padding: 12px; border: 1px dashed #003DB8; }
+#ads .wrap img { float: left; margin-right: 10px; }
+
 #menu { padding-top: 1rem; padding-right: 0px; background-color: #008080; color: #fff; }
 #menu ul { list-style-type: none; padding: 0; }
 #menu a { display: block; padding: 8px; color: white; font-weight: 600; letter-spacing: 2px; }

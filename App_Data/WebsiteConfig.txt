@@ -6,6 +6,8 @@ Credits: <a href="https://github.com/ImranCS/MicroVC.net" target="_blank">MicroV
 
 #Contact
 Email: imran@cselian.com
+AdvertiseHere: TO ADVERTISE HERE,<br />PLEASE CONTACT<br /><a href="mailto:shasa@cselian.com?subject=advertising+on+the+YieldMore.org+network">IMRAN</a>
 
 #Technical
 SelectedMenu: selected
+AdImageUrl: http://yieldmore.org/wp-content/data/print

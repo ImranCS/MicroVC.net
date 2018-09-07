@@ -1,1 +1,1 @@
-﻿<%=ViewHelper.Path()%>
+﻿<marquee>Some blurbs to marquee here</marquee>

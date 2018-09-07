@@ -1,0 +1,1 @@
+﻿Mail us at <a href="mailto:<%=Configs.Email.Value%>" target="_blank"><%=Configs.Email.Value%></a>

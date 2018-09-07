@@ -1,1 +1,1 @@
-﻿Welcome to <%=Configs.Name.Value%>
+﻿<%=ViewHelper.Path()%>

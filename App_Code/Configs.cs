@@ -4,4 +4,5 @@
 	public static ConfigReader.Const Email = new ConfigReader.Const("Email");
 	public static ConfigReader.Const Company = new ConfigReader.Const("Company");
 	public static ConfigReader.Const Founded = new ConfigReader.Const("Founded");
+	public static ConfigReader.Const Credits = new ConfigReader.Const("Credits");
 }

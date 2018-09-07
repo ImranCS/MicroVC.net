@@ -1,8 +1,11 @@
 ﻿#Site
-Name: <a href="https://github.com/ImranCS/MicroVC.net" target="_blank">MicroVC.Net</a> Sample Site
+Name: MicroVC.Net Sample Site
 Company: cselian.com
 Founded: 2005
 Credits: <a href="https://github.com/ImranCS/MicroVC.net" target="_blank">MicroVC.Net</a> and supporting <a href="http://yieldmore.org/" target="_blank">YieldMore.org</a>
 
 #Contact
 Email: imran@cselian.com
+
+#Technical
+SelectedMenu: selected

@@ -7,7 +7,7 @@ public class Controller
 {
 	public static string GetTitle()
 	{
-		return ViewHelper.Path() + " " + Configs.Name.Value;
+		return ViewHelper.Path().Replace("/", " ") + " [" + Configs.Name.Value + "]";
 	}
 
 	public static string ExecutePage()

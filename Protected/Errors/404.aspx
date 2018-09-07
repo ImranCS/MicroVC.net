@@ -1,3 +1,3 @@
 ﻿Welcome to <%=Configs.Name.Value%>
-
-It looks like the URL you requested does not exist: <%=HttpContext.Current.Request.Path%>
+<hr />
+It looks like the URL you requested does not exist: <span style="background-color: yellow; padding: 3px"><%=HttpContext.Current.Request.Path%></span>

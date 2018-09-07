@@ -4,13 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 
-public class Configs
-{
-	public static ConfigReader.Const Name = new ConfigReader.Const("Name");
-	public static ConfigReader.Const Email = new ConfigReader.Const("Email");
-}
-
-/// <summary>
+	/// <summary>
 /// Summary description for ConfigReader
 /// </summary>
 public static class ConfigReader
@@ -40,17 +34,16 @@ public static class ConfigReader
 
 	static ConfigReader()
 	{
-		var fsw = new FileSystemWatcher(Folder);
+		var fsw = new FileSystemWatcher(Folder) {  EnableRaisingEvents = true };
 		fsw.Changed += Fsw_Changed;
 		ReadWebsiteConfig();
 	}
 
 	private static void Fsw_Changed(object sender, FileSystemEventArgs e)
 	{
-		if (e.ChangeType == WatcherChangeTypes.Changed)
-		{
-			if (e.Name == ConfigFile) ReadWebsiteConfig();
-		}
+		//if (e.ChangeType == WatcherChangeTypes.Changed)
+		//if (e.Name == ConfigFile) ReadWebsiteConfig();
+		if (File.Exists(Folder + ConfigFile)) ReadWebsiteConfig();
 	}
 
 	private static Dictionary<string, string> config;

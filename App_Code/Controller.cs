@@ -32,7 +32,7 @@ public class Controller
 	{
 		var path = HttpContext.Current.Request.Path;
 		if (path.Contains("Protected"))
-			ExecuteAndStop("~/Protectes/Errors/404.aspx");
+			ExecuteAndStop("~/Protected/Errors/404.aspx");
 		else if (path != "" && !path.Contains("Assets"))
 			ExecuteAndStop("~/Default.aspx");
 	}
